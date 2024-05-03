@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print environment
-      run: |
-        echo "Environment: ${{ vars.ENVIRONMENT }}"
+        run: |
+          echo "Environment: ${{ vars.ENVIRONMENT }}"
 
   staging-environment:
     runs-on: ubuntu-latest
